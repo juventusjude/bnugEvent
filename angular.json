@@ -23,22 +23,43 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/fontawesome-min.css",
+              "src/assets/css/off-canvas.css",
+              "src/assets/css/ico-moon-fonts.css",
+              "src/assets/css/swiper.css",
+              "src/assets/css/sc-spacing.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+             "src/assets/js/bootstrap.min.js",             
+             "src/assets/js/web3.min.js",
+             "src/assets/js/modernizr-2.8.3.min.js",
+             "src/assets/js/jquery.min.js",
+             "src/assets/js/imagesloaded.pkgd.min.js",
+             "src/assets/js/wow.min.js",
+             "src/assets/js/jquery.counterup.min.js",
+             "src/assets/js/waypoints.min.js",
+             "src/assets/js/plugins.js",
+             "src/assets/js/faq.js",
+             "src/assets/js/swiper-min.js",
+             "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "10mb",
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "10mb",
+                  "maximumError": "40mb"
                 }
               ],
               "fileReplacements": [
